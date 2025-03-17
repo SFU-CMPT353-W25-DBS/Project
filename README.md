@@ -5,15 +5,18 @@
 - Soumya Parmar (spa222)
 
 
-# Contributing
+# Setting up your environment
 
 > [!IMPORTANT]
 > Before contributing to the repo, please make sure you have done the following:
-> 1) Install the required packages by running:
+> ### 1) Install the required packages
+> *Run the following command:*
 > ```sh
 > pip install -r requirements.txt
 > ```
-> 2) Run the following command to clean your jupyter notebook outputs before committing to the repo:
+> ### 2) Configure commit "linting":
+> *Run the following command:*
 > ```sh
 > nbstripout --install --attributes .gitattributes
 > ```
+> This will configure a Git Hook which will remove the output cells of Jupyter Notebooks before committing to the repo (you only need to run this once)
