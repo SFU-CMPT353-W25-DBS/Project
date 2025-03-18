@@ -1,0 +1,5 @@
+{
+  "editor.defaultFormatter": "charliermarsh.ruff",
+  "editor.indentSize": "tabSize",
+  "editor.tabSize": 2
+}
