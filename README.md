@@ -20,3 +20,7 @@
 > nbstripout --install --attributes .gitattributes
 > ```
 > This will configure a Git Hook which will remove the output cells of Jupyter Notebooks before committing to the repo (you only need to run this once)
+
+# Meetings and Other Discussion
+
+See [Discussions Tab](https://github.com/SFU-CMPT353-W25-DBS/Project/discussions/categories/meetings)
