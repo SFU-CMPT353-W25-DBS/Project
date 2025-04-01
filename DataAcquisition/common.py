@@ -12,4 +12,4 @@ Fields in the outage CSV and input JSON that are timestamps.
 In processing, ignore the second part (s/ms/...). It is just for ingress
 """
 
-csvFileName = "outages.csv"
+csvFileName = "outages.csv.gz"
