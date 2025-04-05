@@ -1,0 +1,1 @@
+Folder contains any additional documentation or observations made during development.
