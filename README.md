@@ -1,4 +1,4 @@
-# CMPT353 Winter 2025 | Project
+# CMPT353 Spring 2025 | Project
 
 - Dorsa Azarbayjani (daa43)
 - Bea MacDonald (bma89)

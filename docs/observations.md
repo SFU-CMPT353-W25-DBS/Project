@@ -9,8 +9,9 @@
 6) About 50% of outages labeled as "Under investigation" affected less than 4 people
 7) The majority of outages are planned
 8) Sechelt exists and has a concerning number of power outages
-
-- If anyone's curious, when I loaded 200 days I got the following message : "outages.csv: tokenization, wrapping, folding, codelens, word highlighting and sticky scroll have been turned off for this large file in order to reduce memory usage and avoid freezing or crashing." So CSV is no longer in pretty colours. I wonder if my computer would crash at 360+ days lol.
+9) Date range we selected may introduce some bias since we're starting in the middle of winter.
+10) Greenhills substation has no gisId and any outage data related to it has no coordinates. Distances between the substation and outages is always 11,748.61 km. 
+11) When loading large amounts of data, you may receive the following message : "outages.csv: tokenization, wrapping, folding, codelens, word highlighting and sticky scroll have been turned off for this large file in order to reduce memory usage and avoid freezing or crashing." 
 
 # Known Outage Types (case sensitive):
 
