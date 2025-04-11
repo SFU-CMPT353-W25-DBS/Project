@@ -5,11 +5,14 @@ Utilized (or generated) datasets for the project:
 
 - BC Hydro Outages: Scraped from BC Hydro website, collected by https://github.com/outages/bchydro-outages
 
-- List of Towns/Villages/Cities in BC
-  - From https://natural-resources.canada.ca/maps-tools-publications/maps/geographical-names-canada/download-geographical-names-data (Last updated: 2025-03-05)
 
-- Population Data in BC
-  - From https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=9810000202&pickMembers%5B0%5D=1.4568
+- Cities and Populations
+  - Geographical Names in BC
+    - From https://natural-resources.canada.ca/maps-tools-publications/maps/geographical-names-canada/download-geographical-names-data 
+    - Last updated: 2025-03-05
+  - Population Data in BC
+    - From https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=9810000202&pickMembers%5B0%5D=1.4568
+    - Using data from the 2021 Census of Population, released on February 9, 2022
 
 - Sample data:
   - 3, 9 and 12-day datasets produced on relatively recent data
