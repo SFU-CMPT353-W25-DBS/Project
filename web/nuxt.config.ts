@@ -59,6 +59,10 @@ export default defineNuxtConfig({
   },
 
   nitro: {
-    preset: "static",
+    preset: "github-pages",
   },
+
+  runtimeConfig: {
+    appBaseUrl: "https://github.com/SFU-CMPT353-W25-DBS/Project"
+  }
 });
