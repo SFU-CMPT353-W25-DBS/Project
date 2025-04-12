@@ -12,7 +12,7 @@
 9) Date range we selected may introduce some bias since we're starting in the middle of winter.
 10) Greenhills substation has no gisId and any outage data related to it has no coordinates. Distances between the substation and outages is always 11,748.61 km. 
 11) When loading large amounts of data, you may receive the following message : "outages.csv: tokenization, wrapping, folding, codelens, word highlighting and sticky scroll have been turned off for this large file in order to reduce memory usage and avoid freezing or crashing." 
-
+12) Nakusp has a power outage occuring from 2024-12-23 till 2025-01-03, affecting 2 customers. – *(code/4.analysis/Tests-Cities.ipynb, Step "Correlation between timeouts and distance to nearest city"). Found using "outages_sorted = outages.sort_values(by='timeOut', ascending=False)"*
 # Known Outage Types (case sensitive):
 
 ```py
