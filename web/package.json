@@ -16,6 +16,8 @@
     "@primeuix/themes": "^1.0.3",
     "@primevue/forms": "^4.3.3",
     "@vueuse/core": "^13.1.0",
+    "download": "^8.0.0",
+    "html-to-image": "^1.11.13",
     "nuxt": "^3.16.2",
     "primevue": "^4.3.3",
     "typescript": "^5.8.3",

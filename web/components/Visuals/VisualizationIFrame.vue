@@ -13,6 +13,7 @@
           flex-direction: row;
           justify-content: space-between;
         "
+        v-if="!fullscreen"
       >
         <Button
           style="margin-left: 10px; margin-top: 10px"
@@ -30,9 +31,8 @@
           </template>
         </Button>
         <NuxtLink
-          v-if="!fullscreen"
           :to="{
-            path: `/visuals/${fileNameNoExt}`
+            path: `${$nuxt.$config.app.baseURL}visuals/${fileNameNoExt}`,
           }"
           external
           target="_blank"
@@ -66,17 +66,18 @@
     </template>
     <template #content>
       <iframe
-        :src="`${
-          useNuxtApp().$config.app.baseURL
-        }visuals/${fileNameNoExt}.html`"
+        :src="`${$nuxt.$config.app.baseURL}visuals/${fileNameNoExt}.html`"
         width="100%"
         height="600px"
         frameborder="0"
         style="border-radius: 18px"
+        :class="{
+          isDownloading: isDownloading,
+        }"
       ></iframe>
     </template>
 
-    <template #footer v-if="sources">
+    <template #footer v-if="sources && !isDownloading">
       <Panel
         :header="`Source${sources.length === 1 ? '' : 's'}`"
         style="border-radius: 16px"
@@ -114,6 +115,7 @@ export interface IVisualizationData {
 const props = defineProps<
   IVisualizationData & {
     fullscreen?: boolean;
+    isDownloading?: boolean;
   }
 >();
 
@@ -138,7 +140,7 @@ function copySectionLink() {
   border-radius: 32px;
 }
 
-.visCard.fullscreen {
+.isDownloading {
   border-radius: 0 !important;
 }
 

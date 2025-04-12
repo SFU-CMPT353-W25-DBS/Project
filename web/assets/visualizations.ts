@@ -38,5 +38,8 @@ export default [
         url: "https://www23.statcan.gc.ca/imdb/p3VD.pl?Function=getVD&TVD=113331&CVD=113332&CLV=0&MLV=2&D=1&adm=0&dis=0"
       }
     ]
+  },
+  {
+    fileNameNoExt: "outage_causes"
   }
 ] satisfies IVisualizationData[];
