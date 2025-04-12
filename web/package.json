@@ -10,6 +10,7 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@minify-html/node": "^0.16.4",
     "@nuxt/fonts": "^0.11.1",
     "@nuxt/icon": "^1.12.0",
     "@primeuix/themes": "^1.0.3",

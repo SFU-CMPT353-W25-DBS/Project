@@ -1,21 +1,60 @@
 <template>
-  <Card class="visCard" :id="sectionId">
+  <Card
+    :class="{
+      visCard: true,
+      fullscreen: fullscreen,
+    }"
+    :id="sectionId"
+  >
     <template #header>
-      <Button
-        style="position: absolute"
-        @click="copySectionLink"
-        v-tooltip.bottom="{
-          value: 'Copy link to figure',
-          showDelay: 500,
-        }"
-        text
-        size="large"
-        rounded
+      <div
+        style="
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+        "
       >
-        <template #icon>
-          <Icon name="mdi:link-variant" />
-        </template>
-      </Button>
+        <Button
+          style="margin-left: 10px; margin-top: 10px"
+          @click="copySectionLink"
+          v-tooltip.right="{
+            value: 'Copy link to figure',
+            showDelay: 500,
+          }"
+          text
+          size="large"
+          rounded
+        >
+          <template #icon>
+            <Icon name="mdi:link-variant" />
+          </template>
+        </Button>
+        <NuxtLink
+          v-if="!fullscreen"
+          :to="{
+            path: `/visuals/${fileNameNoExt}`
+          }"
+          external
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Button
+            style="margin-right: 10px; margin-top: 10px"
+            v-tooltip.left="{
+              value: 'Open in new tab',
+              showDelay: 500,
+            }"
+            text
+            size="large"
+            rounded
+          >
+            <template #icon>
+              <Icon name="mdi:open-in-new" />
+            </template>
+          </Button>
+        </NuxtLink>
+      </div>
+
       <h2 class="visTitle" v-if="showTitle">
         {{ showTitle }}
       </h2>
@@ -27,7 +66,9 @@
     </template>
     <template #content>
       <iframe
-        :src="`/Project/visuals/${fileName}`"
+        :src="`${
+          useNuxtApp().$config.app.baseURL
+        }visuals/${fileNameNoExt}.html`"
         width="100%"
         height="600px"
         frameborder="0"
@@ -60,7 +101,7 @@
 
 <script setup lang="ts">
 export interface IVisualizationData {
-  fileName: string;
+  fileNameNoExt: string;
   showTitle?: string;
   showDescription?: string;
   sources?: {
@@ -70,10 +111,14 @@ export interface IVisualizationData {
   }[];
 }
 
-const props = defineProps<IVisualizationData>();
+const props = defineProps<
+  IVisualizationData & {
+    fullscreen?: boolean;
+  }
+>();
 
 const sectionId = computed(
-  () => `visualization-${props.fileName.replaceAll(".", "")}`
+  () => `visualization-${props.fileNameNoExt.replaceAll(".", "")}`
 );
 
 function copySectionLink() {
@@ -89,8 +134,12 @@ function copySectionLink() {
 
 <style scoped>
 .visCard {
-  background-color: var(--p-stone-50);
+  background-color: var(--p-stone-100);
   border-radius: 32px;
+}
+
+.visCard.fullscreen {
+  border-radius: 0 !important;
 }
 
 .visTitle {

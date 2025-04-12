@@ -43,8 +43,19 @@ export default defineNuxtConfig({
 
   ssr: true,
 
+  $development: {
+    app: {
+      baseURL: "/"
+    }
+  },
+
+  $production: {
+    app: {
+      baseURL: "/Project/",
+    },
+  },
+
   app: {
-    baseURL: "/Project/",
     head: {
       charset: "utf-8",
       viewport: "width=device-width, initial-scale=1",
