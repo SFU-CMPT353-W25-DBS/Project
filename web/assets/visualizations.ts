@@ -41,5 +41,8 @@ export default [
   },
   {
     fileNameNoExt: "outage_causes"
+  },
+  {
+    fileNameNoExt: "regions_table"
   }
 ] satisfies IVisualizationData[];
