@@ -66,7 +66,7 @@
     </template>
     <template #content>
       <iframe
-        :src="`${$nuxt.$config.app.baseURL}visuals/${fileNameNoExt}.html`"
+        :src="`${$nuxt.$config.app.baseURL}rawVisuals/${fileNameNoExt}.html`"
         width="100%"
         height="600px"
         frameborder="0"
