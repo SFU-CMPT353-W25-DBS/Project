@@ -66,8 +66,18 @@ function downloadAsImage() {
     if (!downloadContent.value) return;
     toPng(downloadContent.value.$el, { skipFonts: true })
       .then(dataUrl => {
-        console.log(dataUrl);
-        window.open(dataUrl, "_blank");
+        // https://stackoverflow.com/a/28890083
+        const a = document.createElement("a");
+        a.style.visibility = "hidden";
+        a.style.position = "fixed";
+        
+        a.href = dataUrl;
+        a.download = `${
+          matchedVisualization.value?.fileNameNoExt ?? "newimage"
+        }.png`;
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
       })
       .finally(() => {
         isDownloading.value = false;
