@@ -3,9 +3,9 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "node scripts/copyVisualizations.js && nuxt build",
-    "dev": "node scripts/copyVisualizations.js && nuxt dev",
-    "generate": "node scripts/copyVisualizations.js && nuxt generate",
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },
