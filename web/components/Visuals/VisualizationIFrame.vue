@@ -1,24 +1,25 @@
 <template>
   <Card class="visCard" :id="sectionId">
-    <template #header v-if="showTitle">
-      <h2 class="visTitle">
-        <Button
-          @click="copySectionLink"
-          v-tooltip.bottom="{
-            value: 'Copy section link',
-            showDelay: 500,
-          }"
-          text
-          size="large"
-          rounded
-        >
-          <template #icon>
-            <Icon name="mdi:link-variant" />
-          </template>
-        </Button>
+    <template #header>
+      <Button
+        style="position: absolute"
+        @click="copySectionLink"
+        v-tooltip.bottom="{
+          value: 'Copy link to figure',
+          showDelay: 500,
+        }"
+        text
+        size="large"
+        rounded
+      >
+        <template #icon>
+          <Icon name="mdi:link-variant" />
+        </template>
+      </Button>
+      <h2 class="visTitle" v-if="showTitle">
         {{ showTitle }}
       </h2>
-      <p class="visDescription">
+      <p class="visDescription" v-if="showDescription">
         <i>
           {{ showDescription }}
         </i>
@@ -38,7 +39,7 @@
       <Panel
         :header="`Source${sources.length === 1 ? '' : 's'}`"
         style="border-radius: 16px"
-        col
+        collapsed
         toggleable
       >
         <ul style="list-style-type: circle; padding-left: 10px">

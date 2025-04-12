@@ -30,8 +30,16 @@ const visualizations = [
     ]
   },
   {
-    fileName: "outage_duration_by_distance.html",
-    showTitle: "Outage Duration by Distance to Nearest Substation",
+    fileName: "outage_length_vs_distance.html",
+    showTitle: "Mean Power Outage Length vs Distance to Various Locations in BC",
+    showDescription: "Shows the relationship between the distance to various locations in BC and the mean duration of power outages",
+    sources: [
+      {
+        author: "Statistics Canada",
+        name: "Urban and rural areas - 'Urban' versus 'rural' variant",
+        url: "https://www23.statcan.gc.ca/imdb/p3VD.pl?Function=getVD&TVD=113331&CVD=113332&CLV=0&MLV=2&D=1&adm=0&dis=0"
+      }
+    ]
   }
 ] satisfies IVisualizationData[];
 </script>
@@ -39,15 +47,17 @@ const visualizations = [
 <template>
   <Header />
 
-  <div
-    v-for="visualization in visualizations"
-    :key="visualization.fileName"
-    class="visualization"
-  >
-    <LazyVisualsVisualizationIFrame
-      v-bind="visualization"
-      hydrateOnVisible
-    />
+  <div id="bodyContent">
+    <div
+      v-for="visualization in visualizations"
+      :key="visualization.fileName"
+      class="visualization"
+    >
+      <LazyVisualsVisualizationIFrame
+        v-bind="visualization"
+        hydrateOnVisible
+      />
+    </div>
   </div>
 </template>
 
@@ -63,5 +73,13 @@ body {
 .visualization {
   margin: 20px;
   border-radius: 18px;
+}
+
+/* Reduce body width on large monitors */
+@media (min-width: 1200px) {
+  #bodyContent {
+    width: 65%;
+    margin: auto;
+  }
 }
 </style>
