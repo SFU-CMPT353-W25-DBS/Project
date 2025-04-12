@@ -1,4 +1,4 @@
 pipeline/*
 4.analysis/regions_compared.csv
 5.visualize/3year-box-region.png
-mapOfDistance.html
+5.visualize/html/*
