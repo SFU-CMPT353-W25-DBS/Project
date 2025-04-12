@@ -6,6 +6,8 @@ on:
   push:
     branches:
       - main
+    paths: 
+      - "web/**"
 
 jobs:
   build:
@@ -17,15 +19,20 @@ jobs:
         with:
           node-version: "22"
 
-      - run: npx nypm install
-      - run: npm run build
+      - name: Install dependencies
+        working-directory: web
+        run: npx nypm install
+      - name: Build website
+        working-directory: web
+        run: npm run build
         env:
           NITRO_PRESET: github_pages
+          NUXT_APP_BASE_URL: /Project/
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./.output/public
+          path: ./web/.output/public
 
   # Deployment job
   deploy:

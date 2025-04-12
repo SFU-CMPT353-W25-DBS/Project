@@ -2,9 +2,20 @@
   <Card class="visCard" :id="sectionId">
     <template #header v-if="showTitle">
       <h2 class="visTitle">
-        <a :href="`${$route.path}#${sectionId}`">
-          <Icon name="mdi-link-variant" style="margin-right: 8px" />
-        </a>
+        <Button
+          @click="copySectionLink"
+          v-tooltip.bottom="{
+            value: 'Copy section link',
+            showDelay: 500,
+          }"
+          text
+          size="large"
+          rounded
+        >
+          <template #icon>
+            <Icon name="mdi:link-variant" />
+          </template>
+        </Button>
         {{ showTitle }}
       </h2>
       <p class="visDescription">
@@ -15,7 +26,7 @@
     </template>
     <template #content>
       <iframe
-        :src="`/visuals/${fileName}`"
+        :src="`/Project/visuals/${fileName}`"
         width="100%"
         height="600px"
         frameborder="0"
@@ -63,6 +74,16 @@ const props = defineProps<IVisualizationData>();
 const sectionId = computed(
   () => `visualization-${props.fileName.replaceAll(".", "")}`
 );
+
+function copySectionLink() {
+  const section = document.getElementById(sectionId.value);
+  if (section) {
+    const sectionLink = `${window.location.origin}${window.location.pathname}#${sectionId.value}`;
+    navigator.clipboard.writeText(sectionLink);
+  } else {
+    console.error("Section not found:", sectionId.value);
+  }
+}
 </script>
 
 <style scoped>

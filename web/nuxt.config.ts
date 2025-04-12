@@ -36,33 +36,34 @@ export default defineNuxtConfig({
       },
       ripple: true,
     },
+    directives: {
+      include: ['Ripple', 'Tooltip'],
+    }
   },
 
   ssr: true,
 
   app: {
+    baseURL: "/Project/",
     head: {
       charset: "utf-8",
       viewport: "width=device-width, initial-scale=1",
+      title: "CMPT 353 | Supplementary Report Material | Group DBS",
 
       link: [
         {
           rel: "icon",
           type: "image/png",
-          href: "/favicon-96x96.png",
+          href: "/Project/favicon-96x96.png",
           sizes: "96x96",
         },
-        { rel: "icon", type: "image/svg+xml", href: "/favicon.svg" },
-        { rel: "shortcut icon", href: "/favicon.ico" },
+        { rel: "icon", type: "image/svg+xml", href: "/Project/favicon.svg" },
+        { rel: "shortcut icon", href: "/Project/favicon.ico" },
       ],
     },
   },
 
   nitro: {
     preset: "github-pages",
-  },
-
-  runtimeConfig: {
-    appBaseUrl: "https://github.com/SFU-CMPT353-W25-DBS/Project"
   }
 });
