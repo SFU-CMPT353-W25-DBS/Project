@@ -3,7 +3,7 @@ import minifyHtml from "@minify-html/node";
 
 const visualizationPaths = [
   "5.visualize/html",
-  "5.visualize/aesthetic/html",
+  // "5.visualize/aesthetic/html",
 ]
 
 const dest = "./public/rawVisuals/";
