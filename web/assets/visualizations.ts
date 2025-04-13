@@ -78,4 +78,16 @@ export default [
   {
     fileNameNoExt: "regions_table",
   },
+  {
+    fileNameNoExt: "mapOfDistanceApril2025",
+    showTitle: "Visualization of Datasets",
+    showDescription: "Shows the power outages that have occured in the month of April 2025, prior to April 12th.",
+    sources: [
+      knownSources.outages,
+      knownSources.substations,
+      knownSources.geographicalNames,
+      knownSources.populationCensus,
+      knownSources.urbanRural,
+    ],
+  }
 ] satisfies IVisualizationData[];
