@@ -13,46 +13,13 @@
           flex-direction: row;
           justify-content: space-between;
         "
-        v-if="!fullscreen"
       >
-        <Button
-          style="margin-left: 10px; margin-top: 10px"
-          @click="copySectionLink"
-          v-tooltip.right="{
-            value: 'Copy link to figure',
-            showDelay: 500,
-          }"
-          text
-          size="large"
-          rounded
-        >
-          <template #icon>
-            <Icon name="mdi:link-variant" />
-          </template>
-        </Button>
-        <NuxtLink
-          :to="{
-            path: `${$nuxt.$config.app.baseURL}visuals/${fileNameNoExt}`,
-          }"
-          external
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Button
-            style="margin-right: 10px; margin-top: 10px"
-            v-tooltip.left="{
-              value: 'Open in new tab',
-              showDelay: 500,
-            }"
-            text
-            size="large"
-            rounded
-          >
-            <template #icon>
-              <Icon name="mdi:open-in-new" />
-            </template>
-          </Button>
-        </NuxtLink>
+        <VisualsVisualizationIFrameHeaderButtons
+          :fullscreen="fullscreen"
+          :sectionId="sectionId"
+          :fileNameNoExt="fileNameNoExt"
+          :isDownloading="isDownloading"
+        />
       </div>
 
       <h2 class="visTitle" v-if="showTitle">
@@ -122,16 +89,6 @@ const props = defineProps<
 const sectionId = computed(
   () => `visualization-${props.fileNameNoExt.replaceAll(".", "")}`
 );
-
-function copySectionLink() {
-  const section = document.getElementById(sectionId.value);
-  if (section) {
-    const sectionLink = `${window.location.origin}${window.location.pathname}#${sectionId.value}`;
-    navigator.clipboard.writeText(sectionLink);
-  } else {
-    console.error("Section not found:", sectionId.value);
-  }
-}
 </script>
 
 <style scoped>
