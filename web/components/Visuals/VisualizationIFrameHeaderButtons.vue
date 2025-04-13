@@ -19,6 +19,7 @@
       :to="{
         path: `${$nuxt.$config.app.baseURL}visuals/${fileNameNoExt}`,
       }"
+      external
     >
       <Button
         style="margin-right: 10px; margin-top: 10px"
@@ -37,7 +38,7 @@
     </NuxtLink>
   </template>
   <template v-else-if="!isDownloading">
-    <NuxtLink :to="{ name: 'index' }">
+    <NuxtLink :to="{ name: 'index' }" external>
       <Button
         style="margin-left: 10px; margin-top: 10px"
         v-tooltip.right="{
