@@ -32,6 +32,6 @@ All programs can be run through jupyter notebook.
 
 
 ## Authors
-- **Dorsa Azarbayjani** (daa43) @d0rsa
-- **Bea MacDonald** (bma89) @Q-Bea
-- **Soumya Parmar** (spa222) @sousmiley
+- **Dorsa Azarbayjani** (daa43) [@d0rsa](https://github.com/d0rsa)
+- **Bea MacDonald** (bma89) [@Q-Bea](https://github.com/Q-Bea)
+- **Soumya Parmar** (spa222) [@sousmiley](https://github.com/sousmiley)
