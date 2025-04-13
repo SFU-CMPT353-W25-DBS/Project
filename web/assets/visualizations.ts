@@ -77,6 +77,9 @@ export default [
   },
   {
     fileNameNoExt: "regions_table",
+    showTitle: "Pairwise Games-Howell post-hoc Test Results",
+    showDescription:
+      "Shows the results of the Games-Howell test comparing the distribution of outage durations for different regions",
   },
   {
     fileNameNoExt: "mapOfDistanceApril2025",
@@ -93,11 +96,15 @@ export default [
   },
   {
     fileNameNoExt: "regions_timeouts",
+    showTitle: "Outages Duration per Region",
+    showDescription:
+      "Shows the distribution of the outage durations in different BC regions.",
   },
   {
     fileNameNoExt: "outagesPerCapitaVsDistance",
+    showTitle: "Outages per Capita vs Distances",
     showDescription:
-      "Show the relationship between outages to various locations in BC and the expected number of outages each person would experience.",
+      "Shows the relationship between outages to various locations in BC and the expected number of outages each person would experience.",
     sources: [
       knownSources.outages,
       knownSources.substations,
