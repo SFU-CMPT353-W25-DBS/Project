@@ -113,4 +113,11 @@ export default [
       knownSources.urbanRural,
     ],
   },
+  {
+    fileNameNoExt: "outagesByRegion",
+    showDescription: "Shows the raw number of outages in each of the 7 regions of BC defined by BC Hydro",
+    sources: [
+      knownSources.outages
+    ]
+  }
 ] satisfies IVisualizationData[];
