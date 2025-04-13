@@ -1,8 +1,12 @@
 This subfolder contains the files for our static website we used to host interactive visualizations of data found in our report.
 
-The website can be accessed via this url: \<PUT A URL HERE>
+The website can be accessed via this url: https://sfu-cmpt353-s25-dbs.github.io/Project/
 
-The website is built using Vue.js powered by Vite. It is hosted on Github Pages.
+The website is built using Vue.js powered by Nuxt. It is hosted on Github Pages.
+
+It is not required to install anything in this folder in order to run the python code. This is purely for the website. Changes made in this directory are automatically built and deployed to the website via a GitHub Action's workflow.
+
+Minimum version of Node.js required **FOR LOCAL DEVELOPMENT ONLY**: v20
 
 <hr>
 
