@@ -89,5 +89,8 @@ export default [
       knownSources.populationCensus,
       knownSources.urbanRural,
     ],
-  }
+  },
+  {
+    fileNameNoExt: "regions_timeouts",
+  },
 ] satisfies IVisualizationData[];
