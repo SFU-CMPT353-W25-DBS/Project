@@ -1,41 +1,41 @@
 geographical name,generic term,generic category,latitude,longitude,location,"population, 2021","land area in square kilometres, 2021","population density per square kilometre, 2021",id
 Vancouver,City,Populated Place,49.261111,-123.113889,New Westminster Land District,662248,115.18,5749.9,38881
-Surrey,Post Office,Populated Place,49.2,-122.85,New Westminster Land District,568322,316.11,1797.9,35803
-Burnaby,City,Populated Place,49.242778,-122.972778,New Westminster Land District,249125,90.57,2750.7,4524
+Surrey,City,Populated Place,49.111667,-122.8275,New Westminster Land District,568322,316.11,1797.9,35802
+Burnaby,Railway Point,Populated Place,49.25,-122.9,New Westminster Land District,249125,90.57,2750.7,4525
 Richmond,City,Populated Place,49.163333,-123.163333,New Westminster Land District,209937,128.87,1629.0,30936
 Abbotsford,Community,Populated Place,49.05,-122.28333,New Westminster Land District,153524,375.33,409.0,61
 Coquitlam,Railway Point,Populated Place,49.266667,-122.78333,New Westminster Land District,148625,122.15,1216.7,7371
 Langley,District Municipality,Populated Place,49.120278,-122.659722,New Westminster Land District,132603,307.22,431.6,19186
 Saanich,District Municipality,Populated Place,48.456667,-123.373333,Victoria Land District,117735,103.59,1136.6,31709
-Delta,City,Populated Place,49.084722,-123.058611,New Westminster Land District,108455,179.66,603.7,8737
+Delta,Post Office,Populated Place,49.088889,-123.084722,New Westminster Land District,108455,179.66,603.7,8736
 Nanaimo,City,Populated Place,49.163889,-123.938056,Nanaimo Land District,99863,90.45,1104.1,26238
 Kamloops,City,Populated Place,50.675833,-120.339444,Kamloops Division Yale Land District,97902,297.93,328.6,17426
 Chilliwack,Community,Populated Place,49.166667,-121.95,New Westminster Land District,93203,261.34,356.6,6158
 Victoria,City,Populated Place,48.428333,-123.364722,Victoria Land District,91867,19.45,4722.3,39031
 Maple Ridge,City,Populated Place,49.22,-122.598889,New Westminster Land District,90990,267.82,339.7,21196
-New Westminster,City,Populated Place,49.206667,-122.910556,New Westminster Land District,78916,15.62,5052.4,26664
+New Westminster,First Nation Administrative Location,Administrative Area,49.236323,-123.023974,,78916,15.62,5052.4,26663
 Prince George,City,Populated Place,53.913056,-122.745278,Cariboo Land District,76708,316.74,242.2,29714
 Port Coquitlam,City,Populated Place,49.261944,-122.780278,New Westminster Land District,61498,29.16,2108.7,29473
 North Vancouver,District Municipality,Populated Place,49.336111,-123.078056,New Westminster Land District,58120,11.83,4913.0,27263
 Langford,City,Populated Place,48.449722,-123.504444,Esquimalt Land District,46584,41.43,1124.4,19176
 West Vancouver,District Municipality,Populated Place,49.331111,-123.159722,New Westminster Land District,44122,87.18,506.1,39906
 Mission 5,Indian Reserve,Administrative Area,50.7045198,-122.2804777,Lillooet Land District,41519,226.98,182.9,22775
-Penticton,First Nation Administrative Location,Administrative Area,49.4913681,-119.6447628,,36885,43.03,857.3,28740
+Penticton,City,Populated Place,49.500833,-119.593889,Similkameen Division Yale Land District,36885,43.03,857.3,28741
 Port Moody,City,Populated Place,49.282222,-122.829444,New Westminster Land District,33535,25.85,1297.3,29497
-White Rock,Rock,Terrain Feature,49.85,-127.08333,Nootka Land District,21939,5.17,4240.6,40131
+White Rock,Rock,Terrain Feature,49.316667,-122.93333,New Westminster Land District,21939,5.17,4240.6,40130
 Cranbrook,City,Populated Place,49.508056,-115.746944,Kootenay Land District,20499,31.97,641.2,7729
 Salmon Arm,Community,Populated Place,50.7,-119.26667,Kamloops Division Yale Land District,19432,155.19,125.2,31841
-Pitt Meadows,City,Populated Place,49.220556,-122.690278,New Westminster Land District,19146,86.34,221.7,29194
+Pitt Meadows,Community,Populated Place,49.233333,-122.68333,New Westminster Land District,19146,86.34,221.7,29195
 Colwood,City,Populated Place,48.423611,-123.493333,Esquimalt Land District,18961,17.66,1073.6,7058
-Port Alberni,City,Populated Place,49.234444,-124.805833,Alberni Land District,18259,19.66,928.9,29461
+Port Alberni,Port,Water Feature,49.233611,-124.826389,Alberni Land District,18259,19.66,928.9,29462
 Oak Bay,Bay,Water Feature,48.431111,-123.300278,Victoria Land District,17990,10.52,1710.1,27452
-Esquimalt,First Nation Administrative Location,Administrative Area,48.44493,-123.4304159,,17533,7.08,2476.7,10757
+Esquimalt,Indian Reserve,Administrative Area,48.443889,-123.429722,Esquimalt Land District,17533,7.08,2476.7,10759
 Central Saanich,District Municipality,Populated Place,48.594444,-123.420833,South Saanich Land District,17385,41.2,421.9,5693
 Lake Country,District Municipality,Populated Place,50.030278,-119.4025,Osoyoos Division Yale Land District,15817,122.16,129.5,19035
 Sooke,District Municipality,Populated Place,48.382778,-123.731944,Sooke Land District,15086,56.6,266.6,34237
 Comox,Town,Populated Place,49.672778,-124.927778,Comox Land District,14806,16.87,877.7,7109
-Powell River,City,Populated Place,49.835556,-124.524444,New Westminster Land District,13943,28.91,482.4,29622
-Dawson Creek,Creek,Water Feature,52.266944,-118.494444,Cariboo Land District,12323,26.72,461.1,8454
+Powell River,River,Water Feature,49.875833,-124.56,New Westminster Land District,13943,28.91,482.4,29623
+Dawson Creek,Creek,Water Feature,55.740833,-120.117778,Peace River Land District,12323,26.72,461.1,8456
 Sidney,Town,Populated Place,48.650556,-123.398333,North Saanich Land District,12318,5.11,2412.8,33279
 Prince Rupert,City,Populated Place,54.312778,-130.325278,Range 5 Coast Land District,12300,66.0,186.4,29718
 North Saanich,District Municipality,Populated Place,48.656389,-123.432222,North Saanich Land District,12235,37.16,329.2,27216
@@ -48,7 +48,7 @@ Nelson,City,Populated Place,49.493333,-117.295833,Kootenay Land District,11106,1
 Williams Lake,Lake,Water Feature,55.903333,-128.680278,Cassiar Land District,10947,33.12,330.5,40395
 Sechelt,District Municipality,Populated Place,49.4713889,-123.7630556,New Westminster Land District,10847,39.02,278.0,32494
 Quesnel,City,Populated Place,52.979722,-122.493611,Cariboo Land District,9889,35.35,279.8,30145
-Qualicum Beach,Town,Populated Place,49.348056,-124.443889,Newcastle Land District,9303,17.98,517.5,30034
+Qualicum Beach,Beach,Terrain Feature,49.3552778,-124.4513889,Newcastle Land District,9303,17.98,517.5,30035
 Tsinstikeptum 9,Indian Reserve,Administrative Area,49.85,-119.6,Osoyoos Division Yale Land District,9134,6.76,1351.7,38062
 Ladysmith,Town,Populated Place,48.993333,-123.815556,Oyster Land District,8990,12.04,746.5,18992
 Castlegar,City,Populated Place,49.324444,-117.666944,Kootenay Land District,8338,19.87,419.6,5515
@@ -67,8 +67,8 @@ Metchosin,District Municipality,Populated Place,48.379167,-123.535833,Metchosin 
 Duncan,City,Populated Place,48.778611,-123.708056,Quamichan Land District,5047,2.06,2444.5,9685
 Gibsons,Town,Populated Place,49.400278,-123.508889,New Westminster Land District,4758,4.31,1103.2,12800
 Cumberland,Village,Populated Place,49.618611,-125.0325,Nelson Land District,4447,29.04,153.1,8018
-Bowen Island,Island,Terrain Feature,49.373056,-123.371111,New Westminster Land District,4256,50.12,84.9,3764
-Sparwood,Railway Point,Populated Place,49.733333,-114.88333,Kootenay Land District,4148,191.3,21.7,34500
+Bowen Island,District Municipality,Populated Place,49.379722,-123.344167,New Westminster Land District,4256,50.12,84.9,3763
+Sparwood,District Municipality,Populated Place,49.733333,-114.885833,Kootenay Land District,4148,191.3,21.7,34499
 Rossland,City,Populated Place,49.076944,-117.802222,Kootenay Land District,4140,59.72,69.3,31446
 Grand Forks,City,Populated Place,49.031111,-118.439167,Similkameen Division Yale Land District,4112,10.37,396.4,13512
 Golden,Town,Populated Place,51.297778,-116.964722,Kootenay Land District,3986,11.33,351.9,13199
@@ -86,15 +86,15 @@ Princeton,Town,Populated Place,49.460278,-120.507778,Yale Division Yale Land Dis
 Elkford,District Municipality,Populated Place,50.024444,-114.921667,Kootenay Land District,2749,108.12,25.4,10386
 Sicamous,District Municipality,Populated Place,50.836111,-118.98,Kamloops Division Yale Land District,2613,12.8,204.2,33258
 Highlands,District Municipality,Populated Place,48.480556,-123.511944,Highland Land District,2482,38.01,65.3,15276
-Tumbler Ridge,Ridge,Terrain Feature,55.1,-120.916667,Peace River Land District,2399,1557.41,1.5,38203
+Tumbler Ridge,Community,Populated Place,55.1330556,-121.0013889,Peace River Land District,2399,1557.41,1.5,38202
 Chase,Village,Populated Place,50.819167,-119.686111,Kamloops Division Yale Land District,2399,3.75,639.3,5922
 Clearwater,District Municipality,Populated Place,51.645556,-120.0325,Kamloops Division Yale Land District,2388,55.65,42.9,6611
-Port McNeill,Town,Populated Place,50.589444,-127.083611,Rupert Land District,2356,13.77,171.1,29493
 Anmore,Village,Populated Place,49.314444,-122.856389,New Westminster Land District,2356,27.53,85.6,936
+Port McNeill,Town,Populated Place,50.589444,-127.083611,Rupert Land District,2356,13.77,171.1,29493
 Chetwynd,District Municipality,Populated Place,55.695833,-121.638333,Peace River Land District,2302,63.55,36.2,6081
 Lillooet,District Municipality,Populated Place,50.693889,-121.933611,Lillooet Land District,2302,27.63,83.3,19733
 Tsawwassen,Community,Populated Place,49.0163889,-123.0844444,New Westminster Land District,2256,6.57,343.3,37965
-Logan Lake,District Municipality,Populated Place,50.494444,-120.813333,Kamloops Division Yale Land District,2255,324.28,7.0,20227
+Logan Lake,Lake,Water Feature,50.496111,-120.8075,Kamloops Division Yale Land District,2255,324.28,7.0,20226
 Penticton 1,Indian Reserve,Administrative Area,49.5,-119.666667,Osoyoos Division Yale Land District,2080,194.55,10.7,28742
 Ucluelet,District Municipality,Populated Place,48.942778,-125.546111,Clayoquot Land District,2066,6.48,318.8,38591
 Lumby,Village,Populated Place,50.250833,-118.961944,Osoyoos Division Yale Land District,2063,5.93,347.7,20659
@@ -106,18 +106,18 @@ East Saanich 2,Indian Reserve,Administrative Area,48.583333,-123.383333,South Sa
 Tsinstikeptum 10,Indian Reserve,Administrative Area,49.884,-119.536,Osoyoos Division Yale Land District,1766,3.31,533.9,38061
 Barriere,District Municipality,Populated Place,51.179722,-120.123611,Kamloops Division Yale Land District,1765,10.73,164.5,1903
 Warfield,Village,Populated Place,49.094167,-117.749167,Kootenay Land District,1753,1.89,929.3,39435
-Ashcroft,First Nation Administrative Location,Administrative Area,50.7203869,-121.3224748,,1670,50.86,32.8,1263
-Burns Lake,Village,Populated Place,54.230278,-125.764444,Range 5 Coast Land District,1659,6.54,253.7,4552
+Ashcroft,Village,Populated Place,50.721389,-121.283611,Kamloops Division Yale Land District,1670,50.86,32.8,1264
+Burns Lake,Lake,Water Feature,54.2080556,-125.64,Range 5 Coast Land District,1659,6.54,253.7,4551
 Musqueam 2,Indian Reserve,Administrative Area,49.2326524,-123.2061919,New Westminster Land District,1646,1.84,894.7,26067
 Keremeos,Village,Populated Place,49.204722,-119.829722,Similkameen Division Yale Land District,1608,2.09,768.3,17795
 Nakusp,Village,Populated Place,50.239167,-117.7975,Kootenay Land District,1589,8.04,197.7,26212
 Telkwa,Village,Populated Place,54.696667,-127.050833,Range 5 Coast Land District,1474,7.04,209.5,36615
 Osoyoos 1,Indian Reserve,Administrative Area,49.15,-119.5,Similkameen Division Yale Land District,1426,130.34,10.9,27878
-Lions Bay,Bay,Water Feature,49.454722,-123.240556,New Westminster Land District,1390,2.53,549.0,19875
-Fort St. James,Provincial Historic Site,Administrative Area,54.44,-124.2555556,,1386,23.45,59.1,11876
-Radium Hot Springs,Village,Populated Place,50.62,-116.076111,Kootenay Land District,1339,6.34,211.3,30245
+Lions Bay,Village,Populated Place,49.458611,-123.235278,New Westminster Land District,1390,2.53,549.0,19876
+Fort St. James,District Municipality,Populated Place,54.444444,-124.259167,Range 5 Coast Land District,1386,23.45,59.1,11877
+Radium Hot Springs,Hotsprings / Hot Springs,Water Feature,50.633333,-116.03333,Kootenay Land District,1339,6.34,211.3,30244
 Taylor,District Municipality,Populated Place,56.159167,-120.686667,Peace River Land District,1317,16.92,77.8,36471
-Gold River,Village,Populated Place,49.781389,-126.046944,Nootka Land District,1246,10.92,114.2,13198
+Gold River,River,Water Feature,49.681111,-126.1125,Nootka Land District,1246,10.92,114.2,13196
 Mount Currie,Mount,Terrain Feature,50.248611,-122.781944,Lillooet Land District,1242,24.05,51.7,23843
 Bella Bella 1,Indian Reserve,Administrative Area,52.15,-128.15,Coast Land District,1193,5.83,204.5,2459
 Salmo,Village,Populated Place,49.193333,-117.278611,Kootenay Land District,1140,2.44,466.4,31839
@@ -126,13 +126,13 @@ Kaslo,Village,Populated Place,49.910556,-116.905,Kootenay Land District,1049,3.0
 Montrose,Village,Populated Place,49.078889,-117.594167,Kootenay Land District,1013,1.46,693.1,23035
 Skowkale,First Nation Administrative Location,Administrative Area,49.1417127,-121.9405793,,983,0.72,1373.7,33753
 Cache Creek,Creek,Water Feature,57.425,-125.275,Cassiar Land District,969,10.4,93.2,4732
-Fraser Lake,Village,Populated Place,54.060278,-124.843889,Range 5 Coast Land District,965,4.06,237.4,12131
+Fraser Lake,Lake,Water Feature,49.681389,-116.8475,Kootenay Land District,965,4.06,237.4,12130
 Bella Coola 1,Indian Reserve,Administrative Area,52.3781888,-126.7246152,Coast Land District,937,15.22,61.6,2462
 Hudson's Hope,District Municipality,Populated Place,56.025833,-121.913611,Peace River Land District,841,826.7,1.0,15965
-Masset,Community,Populated Place,54.016667,-132.15,Queen Charlotte Land District,838,20.69,40.5,21511
+Masset,Village,Populated Place,54.011111,-132.146667,Queen Charlotte Land District,838,20.69,40.5,21510
 Chemainus 13,Indian Reserve,Administrative Area,49.0,-123.783333,Oyster Land District,818,11.72,69.8,6024
 Canal Flats,Village,Populated Place,50.160278,-115.808889,Kootenay Land District,802,11.07,72.5,5017
-Seabird Island,Indian Reserve,Administrative Area,49.266667,-121.716667,Yale Land District,800,16.61,48.2,32453
+Seabird Island,First Nation Administrative Location,Administrative Area,49.2551217,-121.7303967,,800,16.61,48.2,32452
 Pouce Coupe,Village,Populated Place,55.714722,-120.133611,Peace River Land District,762,2.06,370.3,29594
 Marktosis 15,Indian Reserve,Administrative Area,49.272689,-126.0573586,Clayoquot Land District,760,1.8,423.0,21334
 Port Alice,Village,Populated Place,50.426667,-127.488056,Rupert Land District,739,7.03,105.1,29465
@@ -152,8 +152,8 @@ Gitanmaax 1,Indian Reserve,Administrative Area,55.269444,-127.68056,Cassiar Land
 Woyenne 27,Indian Reserve,Administrative Area,54.2387738,-125.7622936,Coast Land District,548,0.15,3753.4,40838
 Nak'azdli,Indian Reserve,Administrative Area,54.431389,-124.2475,Range 5 Coast Land District,528,3.09,170.9,26200
 Stewart,District Municipality,Populated Place,55.938333,-129.991111,Cassiar Land District,517,551.57,0.9,35176
-Penelakut Island 7,Indian Reserve,Administrative Area,48.963056,-123.646111,Chemainus Land District,513,9.12,56.2,28702
 Nicola Mameet 1,Indian Reserve,Administrative Area,50.166667,-120.833333,Kamloops Division Yale Land District,513,45.97,11.2,26773
+Penelakut Island 7,Indian Reserve,Administrative Area,48.963056,-123.646111,Chemainus Land District,513,9.12,56.2,28702
 Kitamaat 2,Indian Reserve,Administrative Area,53.966667,-128.65,Range 4 Coast Land District,507,1.51,335.3,18151
 Campbell River 11,Indian Reserve,Administrative Area,50.033333,-125.25,Sayward Land District,506,1.02,498.2,4983
 Chehalis 5,Indian Reserve,Administrative Area,49.3,-121.9,New Westminster Land District,500,8.5,58.8,6011
@@ -186,8 +186,8 @@ Quinsam 12,Indian Reserve,Administrative Area,50.016667,-125.3,Sayward Land Dist
 East Moberly Lake 169,Indian Reserve,Administrative Area,55.833333,-121.633333,Peace River Land District,297,31.08,9.6,9972
 Kwawkwawapilt 6,Indian Reserve,Administrative Area,49.166667,-121.983333,New Westminster Land District,295,0.72,411.8,18838
 Dolphin Island 1,Indian Reserve,Administrative Area,53.783333,-130.433333,Coast Land District,295,15.09,19.5,9252
-Comox 1,Indian Reserve,Administrative Area,49.6798241,-124.9562401,Comox Land District,291,0.58,499.9,7110
 Kitselas 1,Indian Reserve,Administrative Area,54.616667,-128.416667,Range 5 Coast Land District,291,4.74,61.4,18212
+Comox 1,Indian Reserve,Administrative Area,49.6798241,-124.9562401,Comox Land District,291,0.58,499.9,7110
 Lillooet 1,Indian Reserve,Administrative Area,50.6794526,-121.9553189,Lillooet Land District,285,3.78,75.4,19734
 Quaaout 1,Indian Reserve,Administrative Area,50.883333,-119.583333,Kamloops Division Yale Land District,284,17.1,16.6,30016
 Neskonlith,First Nation Administrative Location,Administrative Area,50.7733325,-119.7305801,,279,24.73,11.3,26591
@@ -198,12 +198,12 @@ Moricetown 1,Indian Reserve,Administrative Area,55.016667,-127.316667,Cassiar La
 Williams Lake 1,Indian Reserve,Administrative Area,52.116667,-122.0,Cariboo Land District,248,16.55,15.0,40398
 Halfway River 168,Indian Reserve,Administrative Area,56.4734781,-121.8314946,Peace River Land District,247,40.27,6.1,14239
 Quatsino Subdivision 18,Indian Reserve,Administrative Area,50.616667,-127.566667,Rupert Land District,246,0.24,1018.2,30097
-Nanoose,Indian Reserve,Administrative Area,49.25,-124.116667,Nanoose Land District,245,0.71,347.4,26279
 Skwah 4,Indian Reserve,Administrative Area,49.1751367,-121.976865,New Westminster Land District,245,1.16,211.1,33801
+Nanoose,Indian Reserve,Administrative Area,49.25,-124.116667,Nanoose Land District,245,0.71,347.4,26279
 Katzie 1,Indian Reserve,Administrative Area,49.202792,-122.6738151,New Westminster Land District,244,0.42,575.3,17554
+Fort Ware 1,Indian Reserve,Administrative Area,57.433333,-125.633333,Cassiar Land District,242,3.62,66.9,11883
 Bridge River 1,Indian Reserve,Administrative Area,50.7984719,-122.0270734,Lillooet Land District,242,39.02,6.2,4025
 Skeetchestn,First Nation Administrative Location,Administrative Area,50.839705,-120.9547639,,242,79.92,3.0,33649
-Fort Ware 1,Indian Reserve,Administrative Area,57.433333,-125.633333,Cassiar Land District,242,3.62,66.9,11883
 Upper Sumas 6,Indian Reserve,Administrative Area,49.05,-122.2,New Westminster Land District,232,2.56,90.5,38731
 Skweahm 10,Indian Reserve,Administrative Area,49.1714583,-122.0874034,New Westminster Land District,228,0.72,316.5,33811
 Nautley (Fort Fraser) 1,Indian Reserve,Administrative Area,54.077778,-124.602778,Range 5 Coast Land District,227,5.07,44.8,26390
@@ -213,7 +213,7 @@ Stone 1,Indian Reserve,Administrative Area,51.935688,-123.1554694,Lillooet Land 
 Wells,Community,Populated Place,53.1,-121.56667,Cariboo Land District,218,158.09,1.4,39744
 Kitasoo 1,Indian Reserve,Administrative Area,52.6,-128.533333,Coast Land District,217,3.09,70.3,18155
 Homalco 9,Indian Reserve,Administrative Area,49.949167,-125.243611,Comox Land District,214,0.78,275.5,15557
-Lytton,Village,Populated Place,50.231111,-121.581389,Kamloops Division Yale Land District,210,6.73,31.2,20757
+Lytton,First Nation Administrative Location,Administrative Area,50.237487,-121.577555,,210,6.73,31.2,20758
 Sik-e-dakh 2,Indian Reserve,Administrative Area,55.309854,-127.69197,Cassiar Land District,209,4.4,47.5,33298
 Cheam 1,Indian Reserve,Administrative Area,49.2,-121.766667,New Westminster Land District,207,3.5,59.2,5974
 Tsa Xana 18,Indian Reserve,Administrative Area,49.813333,-126.073611,Nootka Land District,205,1.83,112.0,37922
@@ -234,12 +234,12 @@ Nequatque 4,Indian Reserve,Administrative Area,50.50278,-122.545743,Lillooet Lan
 Opitsat 1,Indian Reserve,Administrative Area,49.1760634,-125.9119248,,153,0.72,212.4,27785
 Ohamil 1,Indian Reserve,Administrative Area,49.333333,-121.6,Yale Land District,150,1.73,86.8,27564
 Ahahswinis 1,Indian Reserve,Administrative Area,49.265135,-124.8254902,Alberni Land District,150,0.41,368.0,236
-Columbia Lake 3,Indian Reserve,Administrative Area,50.416667,-115.916667,Kootenay Land District,149,36.02,4.1,7038
 Silverton,Village,Populated Place,49.952778,-117.357222,Kootenay Land District,149,0.35,420.8,33406
+Columbia Lake 3,Indian Reserve,Administrative Area,50.416667,-115.916667,Kootenay Land District,149,36.02,4.1,7038
 Nicola Lake 1,Indian Reserve,Administrative Area,50.216667,-120.45,Kamloops Division Yale Land District,148,11.32,13.1,26772
+Kootenay 1,Indian Reserve,Administrative Area,49.616667,-115.7,Kootenay Land District,145,74.02,2.0,18583
 Cape Mudge 10,Indian Reserve,Administrative Area,50.0,-125.183333,Sayward Land District,145,4.94,29.3,5158
 Blueberry River 205,Indian Reserve,Administrative Area,56.7040684,-121.1043585,Peace River Land District,145,13.13,11.0,3291
-Kootenay 1,Indian Reserve,Administrative Area,49.616667,-115.7,Kootenay Land District,145,74.02,2.0,18583
 Guhthe Tah 12,Indian Reserve,Administrative Area,57.903889,-131.176389,Cassiar Land District,142,0.31,457.9,13971
 Squinas 2,Indian Reserve,Administrative Area,52.4773655,-125.2955853,Coast Land District,137,4.16,33.0,34802
 Squawkum Creek 3,Indian Reserve,Administrative Area,49.239673,-122.0052013,New Westminster Land District,130,1.58,82.2,34789
@@ -250,36 +250,36 @@ Ulkatcho 14A,Indian Reserve,Administrative Area,52.45,-125.266667,Range 3 Coast 
 Quaee 7,Indian Reserve,Administrative Area,50.966667,-126.183333,Coast Land District,111,2.05,54.2,30023
 Deep Creek 2,Indian Reserve,Administrative Area,52.2625,-122.0875,Cariboo Land District,111,15.67,7.1,8636
 Union Bay 4,Indian Reserve,Administrative Area,48.6644186,-123.4487392,North Saanich Land District,109,0.29,376.6,38642
-Seymour Creek 2,Indian Reserve,Administrative Area,49.3009636,-123.0282033,New Westminster Land District,105,0.49,216.0,32776
 Oyster Bay 12,Indian Reserve,Administrative Area,49.016667,-123.85,Oyster Land District,105,1.23,85.5,28067
+Seymour Creek 2,Indian Reserve,Administrative Area,49.3009636,-123.0282033,New Westminster Land District,105,0.49,216.0,32776
 Canoe Creek 2,Indian Reserve,Administrative Area,51.433333,-122.05,Lillooet Land District,104,15.76,6.6,5063
 Toosey 1,Indian Reserve,Administrative Area,51.919444,-122.483333,Lillooet Land District,104,22.43,4.6,37498
 West Moberly Lake 168A,Indian Reserve,Administrative Area,55.8,-121.916667,Peace River Land District,99,19.09,5.2,39870
 Stawamus 24,Indian Reserve,Administrative Area,49.6900674,-123.1507616,New Westminster Land District,98,0.26,381.6,35031
 Marble Canyon 3,Indian Reserve,Administrative Area,50.816667,-121.666667,Kamloops Division Yale Land District,97,2.84,34.1,21225
-McMillan Island 6,Indian Reserve,Administrative Area,49.1740426,-122.5625712,New Westminster Land District,96,1.78,53.9,22122
 Tobacco Plains 2,Indian Reserve,Administrative Area,49.05,-115.1,Kootenay Land District,96,41.74,2.3,37361
+McMillan Island 6,Indian Reserve,Administrative Area,49.1740426,-122.5625712,New Westminster Land District,96,1.78,53.9,22122
 Nesuch 3,Indian Reserve,Administrative Area,50.3047291,-122.6551739,Lillooet Land District,95,4.74,20.0,26608
 Cheakamus 11,Indian Reserve,Administrative Area,49.8,-123.183333,New Westminster Land District,95,18.81,5.0,5969
-Creston 1,Indian Reserve,Administrative Area,49.05,-116.533333,Nelson Land District,93,7.55,12.3,7838
 Fountain 1,Indian Reserve,Administrative Area,50.736111,-121.861111,Lillooet Land District,93,1.38,67.5,11957
+Creston 1,Indian Reserve,Administrative Area,49.05,-116.533333,Nelson Land District,93,7.55,12.3,7838
 Ehatis 11,Indian Reserve,Administrative Area,49.9826005,-126.8604092,Nootka Land District,91,0.23,393.8,10230
-Esowista 3,Indian Reserve,Administrative Area,49.0754617,-125.7916131,,90,0.1,936.5,10746
 Ye Koo Che 3,Indian Reserve,Administrative Area,54.601389,-125.066111,Range 5 Coast Land District,90,1.99,45.1,41016
+Esowista 3,Indian Reserve,Administrative Area,49.0754617,-125.7916131,,90,0.1,936.5,10746
 Skway 5,Indian Reserve,Administrative Area,49.166667,-122.0,New Westminster Land District,89,2.59,34.4,33809
 Dog Creek 1,Indian Reserve,Administrative Area,51.5863784,-122.2060463,Lillooet Land District,88,1.36,64.6,9203
 Babine 17,Indian Reserve,Administrative Area,55.0273613,-127.3386305,Cassiar Land District,87,1.14,76.4,1524
-Chopaka 7 & 8,Indian Reserve,Administrative Area,49.043056,-119.718056,Similkameen Division Yale Land District,86,16.98,5.1,6266
 Chuchuwayha 2,Indian Reserve,Administrative Area,49.3719392,-120.1003604,Similkameen Division Yale Land District,86,21.38,4.0,6355
+Chopaka 7 & 8,Indian Reserve,Administrative Area,49.043056,-119.718056,Similkameen Division Yale Land District,86,16.98,5.1,6266
 Doig River 206,Indian Reserve,Administrative Area,56.566667,-120.5,Peace River Land District,85,11.35,7.5,9228
 Fort George 2,Indian Reserve,Administrative Area,54.016667,-122.626389,Cariboo Land District,84,5.23,16.0,11858
-Babine 25,Indian Reserve,Administrative Area,54.8178098,-126.1480991,Coast Land District,83,0.48,171.3,1526
 Five Mile Point 3,Indian Reserve,Administrative Area,59.5,-133.666667,Cassiar Land District,83,7.86,10.6,11569
+Babine 25,Indian Reserve,Administrative Area,54.8178098,-126.1480991,Coast Land District,83,0.48,171.3,1526
 Klickkumcheen 18,Indian Reserve,Administrative Area,50.2363572,-121.5783298,Kamloops Division Yale Land District,82,0.23,360.9,18360
 Tsussie 6,Indian Reserve,Administrative Area,48.883611,-123.675833,Chemainus Land District,82,0.13,652.3,38128
 Qualicum,Indian Reserve,Administrative Area,49.4,-124.616667,Newcastle Land District,82,0.74,110.3,30031
-McLeod Lake 1,Indian Reserve,Administrative Area,54.983333,-123.05,Cariboo Land District,81,10.23,7.9,22098
 Nazco 20,Indian Reserve,Administrative Area,52.9562689,-123.5856474,Cariboo Land District,81,4.66,17.4,26406
+McLeod Lake 1,Indian Reserve,Administrative Area,54.983333,-123.05,Cariboo Land District,81,10.23,7.9,22098
 Coryatsaqua (Moricetown) 2,Indian Reserve,Administrative Area,55.033333,-127.333333,Cassiar Land District,80,1.43,55.8,7487
 Gordon River 2,Indian Reserve,Administrative Area,48.5749882,-124.4047095,Renfrew Land District,79,0.95,83.1,13369
 Katit 1,Indian Reserve,Administrative Area,51.683333,-127.2,Coast Land District,77,6.04,12.7,17546
@@ -290,19 +290,19 @@ Semiahmoo,Indian Reserve,Administrative Area,49.0126119,-122.7685011,New Westmin
 Douglas 8,Indian Reserve,Administrative Area,49.7575266,-122.1835038,New Westminster Land District,66,3.81,17.3,9417
 Cayoosh Creek 1,Indian Reserve,Administrative Area,50.666667,-121.933333,Lillooet Land District,66,1.58,41.9,5612
 Switsemalph 3,Indian Reserve,Administrative Area,50.716667,-119.333333,Kamloops Division Yale Land District,64,5.44,11.8,36002
-Fountain 1B,Indian Reserve,Administrative Area,50.741667,-121.875,Lillooet Land District,63,0.85,74.0,11962
 Chilhil 6,Indian Reserve,Administrative Area,50.633333,-121.8,Lillooet Land District,63,2.54,24.8,6144
+Fountain 1B,Indian Reserve,Administrative Area,50.741667,-121.875,Lillooet Land District,63,0.85,74.0,11962
 Schkam 2,Indian Reserve,Administrative Area,49.4,-121.45,Yale Land District,62,0.88,70.2,32287
 Lower Hat Creek 2,Indian Reserve,Administrative Area,50.8786372,-121.5059306,Kamloops Division Yale Land District,61,8.38,7.3,20561
 Tork 7,Indian Reserve,Administrative Area,50.133333,-124.933333,Sayward Land District,60,2.63,22.8,37533
 Kowtain 17,Indian Reserve,Administrative Area,49.7437503,-123.1410044,New Westminster Land District,59,0.24,245.0,18641
-Kulkayu (Hartley Bay) 4,Indian Reserve,Administrative Area,53.423611,-129.259722,Range 4 Coast Land District,58,1.14,51.0,18719
-Ashnola 10,Indian Reserve,Administrative Area,49.216667,-120.0,Similkameen Division Yale Land District,58,35.91,1.6,1283
-Joeyaska 2,Indian Reserve,Administrative Area,50.0898089,-120.7578324,Kamloops Division Yale Land District,58,1.3,44.5,17028
 Fort Rupert 1,Indian Reserve,Administrative Area,50.6953242,-127.4055824,Rupert Land District,58,0.05,1205.8,11874
+Joeyaska 2,Indian Reserve,Administrative Area,50.0898089,-120.7578324,Kamloops Division Yale Land District,58,1.3,44.5,17028
+Ashnola 10,Indian Reserve,Administrative Area,49.216667,-120.0,Similkameen Division Yale Land District,58,35.91,1.6,1283
+Kulkayu (Hartley Bay) 4,Indian Reserve,Administrative Area,53.423611,-129.259722,Range 4 Coast Land District,58,1.14,51.0,18719
 Pashilqua 2,Indian Reserve,Administrative Area,50.65,-121.916667,Lillooet Land District,57,3.13,18.2,28391
-Stryen 9,Indian Reserve,Administrative Area,50.283333,-121.633333,Kamloops Division Yale Land District,57,2.53,22.6,35442
 Whispering Pines 4,Indian Reserve,Administrative Area,50.991667,-120.240278,Kamloops Division Yale Land District,57,5.03,11.3,40058
+Stryen 9,Indian Reserve,Administrative Area,50.283333,-121.633333,Kamloops Division Yale Land District,57,2.53,22.6,35442
 Canoe Creek 1,Indian Reserve,Administrative Area,51.4692931,-122.1543244,Lillooet Land District,56,0.7,79.5,5062
 Spuzzum 1,Indian Reserve,Administrative Area,49.6581275,-121.4154109,Yale Division Yale Land District,55,1.34,41.2,34745
 Coquitlam 1,Indian Reserve,Administrative Area,49.2303997,-122.8050852,New Westminster Land District,55,0.03,1774.2,7373
@@ -310,22 +310,92 @@ Dease Lake 9,Indian Reserve,Administrative Area,58.4729553,-130.025873,Cassiar L
 Chum Creek 2,Indian Reserve,Administrative Area,50.866667,-119.583333,Kamloops Division Yale Land District,53,2.77,19.1,6373
 Lukseetsissum 9,Indian Reserve,Administrative Area,49.35,-121.616667,Yale Land District,52,0.65,80.0,20649
 Shackan 11,Indian Reserve,Administrative Area,50.283333,-121.2,Kamloops Division Yale Land District,50,25.52,2.0,32804
-Cheslatta 1,Indian Reserve,Administrative Area,54.0018218,-125.7040948,Coast Land District,49,10.81,4.5,6064
 Yakweakwioose 12,Indian Reserve,Administrative Area,49.133333,-121.933333,New Westminster Land District,49,0.21,236.3,40959
+Cheslatta 1,Indian Reserve,Administrative Area,54.0018218,-125.7040948,Coast Land District,49,10.81,4.5,6064
 Theik 2,Indian Reserve,Administrative Area,48.7425272,-123.6368829,Cowichan Land District,48,0.34,141.7,36940
 Pavilion 1,Indian Reserve,Administrative Area,50.883333,-121.85,Lillooet Land District,48,9.42,5.1,28508
 North Bay 5,Indian Reserve,Administrative Area,50.783333,-119.316667,Kamloops Division Yale Land District,45,3.66,12.3,27119
 Aitchelitch 9,Indian Reserve,Administrative Area,49.1499768,-121.9910133,New Westminster Land District,45,0.21,215.5,301
 Hustalen 1,Indian Reserve,Administrative Area,50.954842,-119.6438464,Coast Land District,44,9.14,4.8,16108
 Ashcroft 4,Indian Reserve,Administrative Area,50.7222129,-121.3182309,Kamloops Division Yale Land District,42,1.4,30.0,1265
+Kopchitchin 2,Indian Reserve,Administrative Area,49.8692753,-121.4538464,Yale Land District,41,1.48,27.6,18603
 Albert Flat 5,Indian Reserve,Administrative Area,49.516667,-121.416667,Yale Land District,41,0.82,50.1,376
 Nicomen 1,Indian Reserve,Administrative Area,50.266667,-121.4,Kamloops Division Yale Land District,41,0.67,60.8,26783
-Kopchitchin 2,Indian Reserve,Administrative Area,49.8692753,-121.4538464,Yale Land District,41,1.48,27.6,18603
 Kluskus 1,Indian Reserve,Administrative Area,53.0908588,-124.4881976,Coast Land District,38,4.4,8.6,18444
 Gwayasdums 1,Indian Reserve,Administrative Area,50.6946648,-126.5985983,Coast Land District,38,0.32,119.5,14073
-Paul's Basin 2,Indian Reserve,Administrative Area,49.9929107,-120.9836158,Yale Land District,35,5.65,6.2,28495
 Papyum 27,Indian Reserve,Administrative Area,50.2369694,-121.5936771,Kamloops Division Yale Land District,35,0.47,74.1,28245
+Paul's Basin 2,Indian Reserve,Administrative Area,49.9929107,-120.9836158,Yale Land District,35,5.65,6.2,28495
 Nickeyeah 25,Indian Reserve,Administrative Area,50.2097429,-121.5872581,Kamloops Division Yale Land District,34,1.05,32.4,26756
-Burns Lake 18,Indian Reserve,Administrative Area,54.2383481,-125.7680943,Coast Land District,33,0.56,59.4,4553
 Klahkamich 17,Indian Reserve,Administrative Area,50.2276877,-121.5770249,Kamloops Division Yale Land District,33,0.12,278.0,18275
+Burns Lake 18,Indian Reserve,Administrative Area,54.2383481,-125.7680943,Coast Land District,33,0.56,59.4,4553
 Tuckkwiowhum 1,Indian Reserve,Administrative Area,49.833333,-121.433333,Yale Land District,31,0.4,78.0,38156
+Skookumchuck 4,Indian Reserve,Administrative Area,49.944167,-122.410833,New Westminster Land District,30,2.16,13.9,33739
+Soda Creek 1,Indian Reserve,Administrative Area,52.316667,-122.266667,Cariboo Land District,30,4.03,7.4,34183
+Scotch Creek 4,Indian Reserve,Administrative Area,50.916667,-119.483333,Kamloops Division Yale Land District,30,7.94,3.8,32352
+Oclucje 7,Indian Reserve,Administrative Area,49.9896024,-126.9416269,Nootka Land District,29,0.12,234.6,27512
+Squaw-Hay-One 11,Indian Reserve,Administrative Area,48.9009,-123.6994,Nanaimo Land District,29,0.33,88.1,34784
+Blind Creek 6,Indian Reserve,Administrative Area,49.183333,-119.733333,Similkameen Division Yale Land District,26,1.58,16.5,3182
+Inklyuhkinatko 2,Indian Reserve,Administrative Area,50.1871635,-121.5772882,Yale Land District,26,0.69,37.7,16392
+Katzie 2,Indian Reserve,Administrative Area,49.1943478,-122.6538151,New Westminster Land District,26,0.31,84.6,17555
+McCartney's Flat 4,Indian Reserve,Administrative Area,50.6565823,-121.8930677,Lillooet Land District,24,1.81,13.2,21744
+Dead Point 5,Indian Reserve,Administrative Area,50.5945861,-126.5933715,Coast Land District,22,0.42,52.7,8512
+Kitzowit 20,Indian Reserve,Administrative Area,50.201026,-121.5724446,Kamloops Division Yale Land District,21,0.12,172.0,18254
+Cowichan Lake,Lake,Water Feature,48.875,-124.26,Cowichan Land District,20,0.43,47.0,7628
+Williams Prairie Meadow 1A,Indian Reserve,Administrative Area,54.472222,-124.194444,Range 5 Coast Land District,20,0.68,29.5,40406
+Zoht 4,Indian Reserve,Administrative Area,50.183333,-120.666667,Kamloops Division Yale Land District,20,2.11,9.5,41225
+Dog Creek 2,Indian Reserve,Administrative Area,51.6,-122.083333,Lillooet Land District,17,2.19,7.7,9204
+Yekwaupsum 18,Indian Reserve,Administrative Area,49.7258969,-123.1619949,New Westminster Land District,17,0.02,696.7,41034
+Laketown 3,Indian Reserve,Administrative Area,53.9233039,-124.1864461,Coast Land District,16,2.44,6.6,19095
+Towinock 2,Indian Reserve,Administrative Area,50.583333,-121.85,Lillooet Land District,16,0.88,18.2,37581
+Upper Nepa 6,Indian Reserve,Administrative Area,50.666667,-121.266667,Kamloops Division Yale Land District,15,2.9,5.2,38716
+Upper Hat Creek 1,Indian Reserve,Administrative Area,50.816667,-121.583333,Kamloops Division Yale Land District,15,9.01,1.7,38700
+Towdystan Lake 3,Indian Reserve,Administrative Area,52.283333,-125.116667,Coast Land District,15,2.64,5.7,37572
+Dzitline Lee 9,Indian Reserve,Administrative Area,54.876944,-125.135,Range 5 Coast Land District,15,5.44,2.8,9828
+Kleetlekut 22,Indian Reserve,Administrative Area,50.266667,-121.566667,Kamloops Division Yale Land District,15,1.21,12.4,18332
+Seaichem 16,Indian Reserve,Administrative Area,49.7554667,-123.1419946,New Westminster Land District,15,0.03,524.5,32464
+Louis Creek 4,Indian Reserve,Administrative Area,51.134335,-120.1259453,Kamloops Division Yale Land District,15,0.03,465.8,20501
+Klehkoot 2,Indian Reserve,Administrative Area,49.290833,-124.900278,Alberni Land District,15,1.17,12.8,18335
+Tseatah 2,Indian Reserve,Administrative Area,49.216667,-121.75,New Westminster Land District,15,1.04,14.4,37999
+Tacla Lake (Ferry Landing) 9,Indian Reserve,Administrative Area,55.3214384,-126.0256015,Cassiar Land District,15,0.72,20.7,36122
+Poison Creek 17A,Indian Reserve,Administrative Area,54.2289401,-125.7850582,Range 5 Coast Land District,10,0.22,45.6,29323
+Alexis 9,Indian Reserve,Administrative Area,49.2187512,-119.918072,Similkameen Division Yale Land District,10,1.88,5.3,486
+Skawahlook 1,Indian Reserve,Administrative Area,49.3644978,-121.5914278,Yale Land District,10,0.5,20.0,33625
+Puckatholetchin 11,Indian Reserve,Administrative Area,49.4448041,-121.4325094,Yale Land District,10,2.37,4.2,29858
+Johny Sticks 2,Indian Reserve,Administrative Area,51.833333,-122.166667,Lillooet Land District,10,3.07,3.3,17131
+Fountain 3,Indian Reserve,Administrative Area,50.779167,-121.844444,Lillooet Land District,10,2.84,3.5,11966
+Skins Lake 16A,Indian Reserve,Administrative Area,53.998192,-125.8795393,Coast Land District,10,0.67,14.9,33710
+Fountain 12,Indian Reserve,Administrative Area,50.6864826,-121.80786,Lillooet Land District,10,0.3,33.7,11960
+Musqueam 4,Indian Reserve,Administrative Area,49.066667,-123.125,New Westminster Land District,10,0.53,18.8,26068
+Lytton 9A,Indian Reserve,Administrative Area,50.3,-121.65,Kamloops Division Yale Land District,10,1.52,6.6,20774
+Seah 5,Indian Reserve,Administrative Area,50.5,-121.733333,Kamloops Division Yale Land District,10,1.6,6.3,32463
+Seaspunkut 4,Indian Reserve,Administrative Area,54.05,-124.766667,Coast Land District,10,2.39,4.2,32483
+Skuppah 4,Indian Reserve,Administrative Area,50.1723328,-121.578582,Yale Land District,10,0.13,77.6,33792
+Fishtrap 19,Indian Reserve,Administrative Area,52.359167,-125.1575,Range 3 Coast Land District,10,0.28,36.1,11522
+Nickel Palm 4,Indian Reserve,Administrative Area,50.45,-121.7,Kamloops Division Yale Land District,5,0.61,8.2,26750
+Nkaih 10,Indian Reserve,Administrative Area,50.3258512,-121.659227,Kamloops Division Yale Land District,5,1.16,4.3,26951
+Michel Gardens 36,Indian Reserve,Administrative Area,52.1498787,-123.9150295,Cariboo Land District,5,0.04,120.8,22481
+Pentledge 2,Indian Reserve,Administrative Area,49.7,-125.0,Comox Land District,5,0.83,6.0,28746
+Whonnock 1,Indian Reserve,Administrative Area,49.1755227,-122.460327,New Westminster Land District,5,0.39,12.9,40239
+Alkali Lake 4A,Indian Reserve,Administrative Area,51.8235049,-122.1190912,Lillooet Land District,5,1.29,3.9,569
+Alexis Creek 14,Indian Reserve,Administrative Area,52.2037558,-124.3133918,Coast Land District,5,1.64,3.0,490
+105 Mile Post 2,Indian Reserve,Administrative Area,50.733333,-121.316667,Kamloops Division Yale Land District,5,13.65,0.4,9
+Yale Town 1,Indian Reserve,Administrative Area,49.5622439,-121.4217741,Yale Land District,5,0.1,49.7,40980
+Yawaucht 11,Indian Reserve,Administrative Area,50.3469058,-121.6729575,Kamloops Division Yale Land District,5,1.16,4.3,41013
+Nohomeen 23,Indian Reserve,Administrative Area,50.25,-121.6,Kamloops Division Yale Land District,5,0.15,33.6,26999
+Necait 6,Indian Reserve,Administrative Area,50.70295,-122.2975821,Lillooet Land District,5,0.37,13.5,26432
+Lytton 4E,Indian Reserve,Administrative Area,50.427986,-121.7082897,Kamloops Division Yale Land District,5,1.25,4.0,20771
+Nesikep 6,Indian Reserve,Administrative Area,50.55,-121.783333,Lillooet Land District,5,5.6,0.9,26588
+Duncan Lake 2,Indian Reserve,Administrative Area,54.4218198,-126.1376584,Range 5 Coast Land District,5,0.67,7.5,9702
+Euchinico Creek 17,Indian Reserve,Administrative Area,53.216667,-123.5,Cariboo Land District,5,3.87,1.3,10817
+Scowlitz 1,Indian Reserve,Administrative Area,49.2323395,-121.9374518,New Westminster Land District,5,0.87,5.8,32400
+Jean Baptiste 28,Indian Reserve,Administrative Area,54.7467228,-127.0134607,Coast Land District,5,1.42,3.5,16848
+Schelowat 1,Indian Reserve,Administrative Area,49.1770419,-121.8327272,New Westminster Land District,5,0.96,5.2,32274
+Kahmoose 4,Indian Reserve,Administrative Area,49.9616141,-121.4834895,Yale Land District,5,0.22,23.1,17346
+Puntzi Lake 2,Indian Reserve,Administrative Area,52.2060462,-124.056248,Coast Land District,5,0.23,21.6,29905
+Fountain 10,Indian Reserve,Administrative Area,50.7587258,-121.9207272,Lillooet Land District,5,0.97,5.1,11958
+Skwayaynope 26,Indian Reserve,Administrative Area,50.1922186,-121.591315,Kamloops Division Yale Land District,5,0.98,5.1,33810
+Spintlum Flat 3,Indian Reserve,Administrative Area,50.333333,-121.65,Kamloops Division Yale Land District,5,1.78,2.8,34615
+Thomas Squinas Ranch 2A,Indian Reserve,Administrative Area,52.487298,-125.3113357,Coast Land District,5,2.56,2.0,37011
+Sowchea 3,Indian Reserve,Administrative Area,54.420833,-124.394444,,5,1.0,5.0,34438
+Bucktum 4,Indian Reserve,Administrative Area,49.9105019,-121.4407909,Yale Land District,5,0.38,13.1,4366
+Zacht 5,Indian Reserve,Administrative Area,50.1536884,-121.5753642,Yale Land District,5,0.25,19.9,41164
