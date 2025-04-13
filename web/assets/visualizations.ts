@@ -81,7 +81,8 @@ export default [
   {
     fileNameNoExt: "mapOfDistanceApril2025",
     showTitle: "Visualization of Datasets",
-    showDescription: "Shows the power outages that have occured in the month of April 2025, prior to April 12th.",
+    showDescription:
+      "Shows the power outages that have occured in the month of April 2025, prior to April 12th.",
     sources: [
       knownSources.outages,
       knownSources.substations,
@@ -92,5 +93,17 @@ export default [
   },
   {
     fileNameNoExt: "regions_timeouts",
+  },
+  {
+    fileNameNoExt: "outagesPerCapitaVsDistance",
+    showDescription:
+      "Show the relationship between outages to various locations in BC and the expected number of outages each person would experience.",
+    sources: [
+      knownSources.outages,
+      knownSources.substations,
+      knownSources.geographicalNames,
+      knownSources.populationCensus,
+      knownSources.urbanRural,
+    ],
   },
 ] satisfies IVisualizationData[];
