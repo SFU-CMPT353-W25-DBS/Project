@@ -40,7 +40,12 @@ export default [
     ]
   },
   {
-    fileNameNoExt: "outage_causes"
+    fileNameNoExt: "preCleanOutageCauses",
+    showDescription: "Shows the cause of power outages in BC before filtering the data.",
+  },
+  {
+    fileNameNoExt: "postCleanOutageCauses",
+    showDescription: "Shows the cause of power outages in BC after filtering the data.",
   },
   {
     fileNameNoExt: "regions_table"

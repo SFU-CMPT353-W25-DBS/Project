@@ -1,24 +1,37 @@
 import fs from "fs";
 import minifyHtml from "@minify-html/node";
 
+const visualizationPaths = [
+  "5.visualize/html",
+  "5.visualize/aesthetic/html",
+]
+
+const dest = "./public/rawVisuals/";
+
 
 function run() {
-  if (!fs.existsSync("../code/5.visualize/html")) return;
+  visualizationPaths.forEach(path => {
+    const src = `../code/${path}`;
+    if (!fs.existsSync(src)) {
+      console.error(`Source directory ${src} does not exist.`);
+      return;
+    };
 
-  fs.cpSync(
-    "../code/5.visualize/html",
-    "./public/visuals",
-    {
-      recursive: true,
-      force: true
-    }
-  )
+    fs.cpSync(
+      src,
+      dest,
+      {
+        recursive: true,
+        force: true
+      }
+    )
+  })
 
   // minify all html files in ./public/visuals
-  const files = fs.readdirSync("./public/visuals");
+  const files = fs.readdirSync(dest);
   files.forEach(file => {
     if (file.endsWith(".html")) {
-      const filePath = `./public/visuals/${file}`;
+      const filePath = `${dest}${file}`;
       // read file contents as buffer
       const fileBuffer = fs.readFileSync(filePath);
       const minifiedContent = minifyHtml.minify(fileBuffer, {
