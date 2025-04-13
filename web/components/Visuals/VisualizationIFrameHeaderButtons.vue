@@ -20,6 +20,8 @@
         path: `${$nuxt.$config.app.baseURL}visuals/${fileNameNoExt}`,
       }"
       external
+      target="_blank"
+      rel="noopener noreferrer"
     >
       <Button
         style="margin-right: 10px; margin-top: 10px"
