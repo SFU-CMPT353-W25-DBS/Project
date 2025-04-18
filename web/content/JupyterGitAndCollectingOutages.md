@@ -1,6 +1,11 @@
 ---
 title: Jupyter, Git, and Collecting Outages
 description: Some additional information on why I pushed for us to use Jupyter, the Git commands I used, and how I collected outages from the GitHub repository.
+languages:
+  - jupyter
+  - python
+  - shell
+  - git
 ---
 
 I wanted to make sure that I left you with an good example of a project that you can look back on. So here's a brief(ish) overview of the what I did behind the scenes which I didn't have time to explain fully during the project.

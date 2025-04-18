@@ -10,10 +10,18 @@
         </div>
       </template>
       <template #footer>
+        <div v-if="!page.languages?.length" style="flex-grow: 1" />
+        <div v-else>
+          <LanguageIcon
+            v-for="language in page.languages"
+            :key="language"
+            :language="language"
+            style="margin-right: 5px"
+          />
+        </div>
         <NuxtLink :key="page.id" :to="{
           name: 'content-slug',
           params: { slug: page.path.slice(1) },
-          
         }">
           <Button>Read</Button>
         </NuxtLink>
@@ -44,6 +52,13 @@ const { data: pages } = await useAsyncData(route.path, () => {
   justify-content: center;
 }
 
+@media (max-width: 600px) {
+  .articles {
+    margin: 0;
+    border-radius: 0;
+  }
+}
+
 .article {
   flex-grow: 1;
   min-height: 150px;
@@ -62,7 +77,7 @@ const { data: pages } = await useAsyncData(route.path, () => {
 
 .article:deep(.p-card-footer) {
   display: flex;
-  justify-content: right;
+  justify-content: space-between;
   align-items: end;
   padding: 0.5em;
 }
@@ -71,6 +86,13 @@ const { data: pages } = await useAsyncData(route.path, () => {
 @media (min-width: 900px) {
   .article {
     max-width: calc(1/2 * 100% - 2em);
+  }
+}
+
+/* Full width on phones */
+@media (max-width: 600px) {
+  .article {
+    max-width: 100%;
   }
 }
 </style>

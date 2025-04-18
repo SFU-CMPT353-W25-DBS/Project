@@ -5,6 +5,16 @@
       <p>Interactive Visuals and Supplementary Report Material</p>
       <p>SFU CMPT 353 | Group DBS</p>
     </div>
+    <NuxtLink
+      :to="{
+        name: 'content',
+      }"
+    >
+      <Button text>
+        Docs
+        <Icon name="mdi-open-in-new" />
+      </Button>
+    </NuxtLink>
   </section>
 </template>
 

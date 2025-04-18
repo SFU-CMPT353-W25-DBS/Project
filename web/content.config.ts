@@ -9,6 +9,7 @@ export default defineContentConfig({
       schema: z.object({
         title: z.string().min(1),
         description: z.string().optional(),
+        languages: z.array(z.string()).optional(),
       })
     })
   }

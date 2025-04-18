@@ -12,10 +12,8 @@
       align-items: center;
     "
   >
-    <Icon
-      v-if="languageToIcon[language]"
-      :name="`vscode-icons:file-type-${languageToIcon[language]}`"
-      size="24"
+    <LanguageIcon 
+      :language    
       style="margin-right: 5px;"
     />
     {{ props.filename || props.language }}
@@ -72,24 +70,6 @@ const props = defineProps({
 const showHeader = computed(() => {
   return props.showHeader && props.language && props.language !== "text";
 });
-
-const languageToIcon: Record<string, string> = {
-  js: "js",
-  ts: "typescript",
-  html: "html",
-  css: "css",
-  vue: "vue",
-  json: "json",
-  csv: "text",
-  shell: "shell",
-  md: "markdown",
-  yaml: "yaml",
-  mdc: "markdown",
-  python: "python",
-  py: "python",
-  sh: "shell",
-  bash: "shell",
-};
 </script>
 
 <style scoped>
