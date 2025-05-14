@@ -2,7 +2,7 @@
   <div class="articles">
     <Card v-for="page in pages" class="article">
       <template #title>
-        {{ page.title }}
+        {{ page.sequence !== undefined ? `${page.sequence}. ` : undefined }}{{ page.title }}
       </template>
       <template #content v-if="page.description?.length">
         <div style="padding-bottom: 10px !important;">
@@ -20,7 +20,7 @@
           />
         </div>
         <NuxtLink :key="page.id" :to="{
-          name: 'content-slug',
+          name: 'blog-slug',
           params: { slug: page.path.slice(1) },
         }">
           <Button>Read</Button>
@@ -34,7 +34,7 @@
 const route = useRoute();
 
 const { data: pages } = await useAsyncData(route.path, () => {
-  return queryCollection("content").all();
+  return queryCollection("blog").order("sequence", "ASC").all();
 });
 </script>
 
@@ -67,7 +67,7 @@ const { data: pages } = await useAsyncData(route.path, () => {
   max-width: calc(1/3 * 100% - 2em);
 }
 
-.article:deep(.p-card-caption) {
+.article:deep(.p-card-content) {
   flex-grow: 1;
 }
 
@@ -85,12 +85,12 @@ const { data: pages } = await useAsyncData(route.path, () => {
 /* Reduce body width on large monitors */
 @media (min-width: 900px) {
   .article {
-    max-width: calc(1/2 * 100% - 2em);
+    max-width: calc(1/2 * 100% - 1em);
   }
 }
 
 /* Full width on phones */
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   .article {
     max-width: 100%;
   }

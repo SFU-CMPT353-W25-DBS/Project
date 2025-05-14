@@ -7,11 +7,11 @@
     </div>
     <NuxtLink
       :to="{
-        name: 'content',
+        name: 'blog',
       }"
     >
       <Button text>
-        Docs
+        Blog
         <Icon name="mdi-open-in-new" />
       </Button>
     </NuxtLink>

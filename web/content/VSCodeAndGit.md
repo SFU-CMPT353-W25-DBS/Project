@@ -1,5 +1,6 @@
 ---
 title: VSCode and Git
+sequence: 2
 description: Shortcuts and useful features that you should know about the tools you use everyday
 languages:
   - vscode
@@ -22,4 +23,6 @@ We also made extensive use of GitHub in the project, and it's important to remem
 
 A tool similar GitHub is effectively essential in corporate projects. As a basic example, if you were managing a multi-million dollar project, you probably would want to limit who was allowed to issue new builds of your software, and GitHub allows you to do that, whereas barebones Git does not. 
 
-Plus, GitHub offers additional features to Git, such as Issues, Pull Requests (Branch Merge Requests) and **Continuous Integration/Continuous Development (CI/CD)**. I am using a CI pipeline in our project to automatically build new versions of this website whenever changes are made to the `web` folder. 
+Plus, GitHub offers additional features to Git, such as Issues, Pull Requests (Branch Merge Requests) and **Continuous Integration/Continuous Development (CI/CD)**. I am using a CI pipeline in our project to automatically build new versions of this website whenever changes are made to the `web` folder. You can see what that looks like [here](https://github.com/SFU-CMPT353-S25-DBS/Project/blob/main/.github/workflows/deployWeb.yaml)
+
+Todo✨

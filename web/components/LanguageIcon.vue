@@ -3,6 +3,10 @@
     v-if="knownLanguageToIcon[language]"
     :name="`vscode-icons:file-type-${knownLanguageToIcon[language]}`"
     :size="size ?? 24"
+    v-tooltip.bottom="{
+      value: language,
+      showDelay: 500,
+    }"
   />
 </template>
 
