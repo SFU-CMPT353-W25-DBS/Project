@@ -95,3 +95,4 @@ Describing Javascript is really, really hard. So, if you're interested in making
     - Web API to get pictures of cats
     - Personal website
     - Website that uses your cat API to display pictures of cats
+5) Research when necessary, but focus on practical knowledge. Theory is very complex and textbook-esque readings are never going to be as useful as trying things and learning from mistakes.
